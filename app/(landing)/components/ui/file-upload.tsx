@@ -38,7 +38,7 @@ const FileUpload = ({ onFileSelect }: TFileUploadProps) => {
         type="file"
         className="hidden"
         ref={fileInputRef}
-        accept="image/*"
+        accept="gambar/*"
         onChange={(e) => handleFileChange(e.target.files?.[0])}
       />
       {!file ? (
